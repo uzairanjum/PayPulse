@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "paypulse"
+version = "0.1.0"
+description = "Feel the pulse of your payments with PayPulse."
+authors = ["Uzair Anjum <rajpoot.waryah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
